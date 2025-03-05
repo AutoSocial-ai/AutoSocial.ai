@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa; /* Light background */
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #007bff; /* Bright blue */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header button {
+    background: #6c5ce7; /* Purple background for button */
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+header button:hover {
+    background: #574b90; /* Darker purple for hover effect */
+}
+
+/* Hero Section */
+.hero {
+    background: #ff6347; /* Tomato red background */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background: #00b894; /* Green button for 'Get Started' */
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero button:hover {
+    background: #019875; /* Darker green for hover effect */
+}
+
+/* Features Section */
+.features {
+    background: #f9f9f9; /* Light background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    margin-bottom: 40px;
+}
+
+.feature-item h3 {
+    font-size: 2rem;
+    color: #007bff; /* Blue for headings */
+}
+
+.feature-item p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer Section */
+footer {
+    background: #007bff; /* Blue background for footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+}
