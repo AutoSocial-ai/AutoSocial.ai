@@ -8,87 +8,68 @@
 /* Body and font settings */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fafafa; /* Light background */
+    background-color: #ffffff; /* White background */
     color: #333;
 }
 
 /* Header Section */
 header {
-    background: #007bff; /* Bright blue */
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-bottom: 1px solid #f0f0f0;
 }
 
-header h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+header .logo h1 {
+    font-size: 2rem;
+    color: #007bff; /* Light blue color */
 }
 
-header p {
+header .description p {
     font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-header button {
-    background: #6c5ce7; /* Purple background for button */
-    color: white;
-    font-size: 1.2rem;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-header button:hover {
-    background: #574b90; /* Darker purple for hover effect */
+    color: #007bff;
 }
 
 /* Hero Section */
 .hero {
-    background: #ff6347; /* Tomato red background */
-    color: white;
-    padding: 80px 20px;
     text-align: center;
-    margin-top: 50px;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .hero h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #007bff;
 }
 
 .hero p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
 .hero button {
-    background: #00b894; /* Green button for 'Get Started' */
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    background-color: #007bff;
     color: white;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
-}
-
-.hero button:hover {
-    background: #019875; /* Darker green for hover effect */
 }
 
 /* Features Section */
 .features {
-    background: #f9f9f9; /* Light background */
-    padding: 60px 20px;
     text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
 }
 
 .features h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 40px;
+    color: #333;
 }
 
 .feature-item {
@@ -96,87 +77,105 @@ header button:hover {
 }
 
 .feature-item h3 {
-    font-size: 2rem;
-    color: #007bff; /* Blue for headings */
+    font-size: 1.8rem;
+    color: #007bff;
 }
 
 .feature-item p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #666;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 /* Reviews Section */
 .reviews {
-    background: #f3f4f6; /* Light grey background */
+    background: #f9f9f9;
     padding: 60px 20px;
-    text-align: center;
 }
 
 .reviews h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 
 .review {
-    background: white;
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.review p {
-    font-size: 1.2rem;
+.review-text {
+    flex: 1;
+    font-size: 1.1rem;
+}
+
+.profile {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
-.review h4 {
-    font-size: 1.2rem;
-    color: #007bff;
-}
-
-.stars {
-    color: #ffd700; /* Gold for stars */
-    font-size: 1.5rem;
+.profile p {
+    font-size: 1rem;
+    color: #333;
 }
 
 /* FAQ Section */
 .faq {
-    background: #ffffff; /* White background for FAQ */
     padding: 60px 20px;
-    text-align: center;
+    background-color: #ffffff;
 }
 
 .faq h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
 
 .question {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.question h4 {
-    font-size: 1.5rem;
-    color: #007bff;
-}
-
-.question p {
+.question button {
+    background-color: #ffffff;
+    color: #333;
     font-size: 1.1rem;
-    color: #666;
+    text-align: left;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.question .answer {
+    display: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+hr {
+    border: 1px solid #f0f0f0;
 }
 
 /* Footer Section */
 footer {
-    background: #007bff; /* Blue background for footer */
-    color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    background-color: #ffffff;
+    border-top: 1px solid #f0f0f0;
 }
 
 footer p {
     font-size: 1rem;
+    color: #666;
 }
