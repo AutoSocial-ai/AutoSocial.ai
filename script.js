@@ -1,10 +1,6 @@
-document.querySelectorAll('.toggle-answer').forEach(button => {
-    button.addEventListener('click', () => {
-        const answer = button.nextElementSibling;
-        if (answer.style.display === 'none' || answer.style.display === '') {
-            answer.style.display = 'block';
-        } else {
-            answer.style.display = 'none';
-        }
+document.querySelectorAll('.faq-item .question').forEach((question) => {
+    question.addEventListener('click', function() {
+        const answer = this.nextElementSibling;
+        answer.style.display = (answer.style.display === 'block' ? 'none' : 'block');
     });
 });
