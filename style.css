@@ -1,53 +1,36 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
     color: #333;
-    line-height: 1.6;
 }
 
-/* Header */
+h1, h2, h3 {
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
 header {
     background-color: #007bff;
-    padding: 20px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: #ffdb58;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Hero Section */
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: url('images/hero-image.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -57,94 +40,40 @@ header nav ul li a:hover {
 
 .hero h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .hero p {
     font-size: 1.2em;
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
-.cta-button {
-    background-color: #ffdb58;
-    color: #333;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #e6c300;
-}
-
-/* Features Section */
-.features {
-    padding: 60px 0;
-    background-color: #fff;
-    text-align: center;
-}
-
-.features h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-}
-
-.feature-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.feature {
-    width: 30%;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.feature h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-.feature p {
-    font-size: 1em;
-}
-
-/* How to Use Section */
-.how-to-use {
-    background-color: #f4f4f4;
-    padding: 60px 0;
-    text-align: center;
-}
-
-.how-to-use h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.how-to-use p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-/* Contact Section */
-.contact {
-    padding: 60px 0;
-    background-color: #fff;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #333;
+/* Button Styles */
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #28a745;
     color: white;
-    padding: 20px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
     text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
 }
