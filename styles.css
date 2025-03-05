@@ -107,6 +107,67 @@ header button:hover {
     margin: 0 auto;
 }
 
+/* Reviews Section */
+.reviews {
+    background: #f3f4f6; /* Light grey background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.review {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.review h4 {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.stars {
+    color: #ffd700; /* Gold for stars */
+    font-size: 1.5rem;
+}
+
+/* FAQ Section */
+.faq {
+    background: #ffffff; /* White background for FAQ */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.question p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
 /* Footer Section */
 footer {
     background: #007bff; /* Blue background for footer */
