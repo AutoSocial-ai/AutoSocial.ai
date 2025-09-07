@@ -1,1 +1,1 @@
-# AutoSocial.ai
+# Cook AI
